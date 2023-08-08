@@ -116,7 +116,7 @@ app.get("/", async (req, res) => {
                 <h1>Interview Questions</h1>
                 <div class="jumbotron bg-white">
                     <h4 id="question_id">${parsedResponse.Q}</h4>
-                    <h4 id="question_id1">${parsedResponse.A}</h4>
+                    // <h4 id="question_id1">${parsedResponse.A}</h4>
 
                     <a href="/" class="btn btn-primary">Next</a>
                 </div>
